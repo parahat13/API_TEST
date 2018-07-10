@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="REST API(failed)">
+    <classes>
+      <class name="twitter_API.getLatestTweet">
+        <methods>
+          <include name="createTweet"/>
+          <include name="createAndDeleteTweet"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- twitter_API.getLatestTweet -->
+      <class name="tests.Jira_API_Add_Comment">
+        <methods>
+          <include name="addComment"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Jira_API_Add_Comment -->
+      <class name="tests.Jira_API_Update_Comment2">
+        <methods>
+          <include name="updateComment"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Jira_API_Update_Comment2 -->
+      <class name="tests.Jira_API">
+        <methods>
+          <include name="test1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Jira_API -->
+    </classes>
+  </test> <!-- REST API(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="REST API">
+    <classes>
+      <class name="twitter_API.getLatestTweet"/>
+      <class name="tests.ExtractingNamesAPI"/>
+      <class name="tests.Jira_API_Update_Comment2"/>
+      <class name="files.Utils"/>
+      <class name="tests.Get_Place"/>
+      <class name="tests.Jira_API"/>
+      <class name="tests.Create_Place"/>
+      <class name="tests.Post_Data_XML"/>
+      <class name="tests.Jira_API_Add_Comment"/>
+      <class name="tests.Demo3"/>
+    </classes>
+  </test> <!-- REST API -->
+</suite> <!-- Suite -->
